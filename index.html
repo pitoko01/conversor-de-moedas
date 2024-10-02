@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"></div>
+        <h1>Conversor de Moedas</h1>
+        <input type="number" id="amount" placeholder="Valor a converter">
+        <select id="fromCurrency">
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+        </select>
+        <select id="toCurrency">
+            <option value="USD">Dólar Americano (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="BRL">Real Brasileiro (BRL)</option>
+        </select>
+        <button onclick="convertCurrency()">Converter</button>
+        <p id="result"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
